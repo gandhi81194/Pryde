@@ -54,33 +54,13 @@
     width: 80%;
 }
 
-#banner h3>i::after{
-    content: "";
-    width: 10px;
-    height:10px;
-    border-radius: 50%;
-    background-color:#0c4e93;
-    display: inline-block;
-    position: absolute;
-    bottom: 33px;
-    left: 69px;
-}
+
 #banner h3{
-    position: relative;
+   
     font-size: 70px;
     color: #0c4e93;
 }
-#banner h3::before{
-    content: "";
-    width: 10px;
-    height:10px;
-    border-radius: 50%;
-    background-color:#0c4e93;
-    display: inline-block;
-    position: absolute; 
-     bottom: 33px;
-     left: -10px;
-}
+#
 #banner>div h3+p{
   text-transform: capitalize;
   font-size: 20px;
@@ -103,25 +83,29 @@
 #box-2 div button p{
    font-size: 16px;
    text-align: center;
+   margin-top: auto;
+   margin-bottom: auto;
 }
 #box-2 div button{
     border: 1px solid rgba(128, 128, 128, 0.365);
     border-radius: 0px;
-    margin: 5%;
-    padding: 5%;
+    margin: 2%;
+    padding: 4%;
+    width: 135px;
 }
 #box-2 div .nav-link.active{
     background-color: white;
     border-color: #0c4e93;
     color: #0c4e93;
-    border-bottom: none;
+    /* border-bottom: none; */
 }
 #box-2 #box-2-1{
     background-image: url(../images/box-2/bg-1.png);
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: 8%;
+    margin-top: 1%;
     /* width: 100%; */
+    padding: 1%;
 }
 #box-2 #box-2-1 img{
     width: 45px;
@@ -162,13 +146,21 @@ color: #0c4e93;
     text-align: center;
     width: 150%;
  }
- #box-3 .col>i.bi{
+ #box-3 .col i.bi{
     background-color: #008cd2;
     font-size: 16px;
     padding: 15px 5px 15px 10px;
     position: absolute;
-    left: -60px;
-    bottom: 276px;
+    
+    
+ }
+ #box-3 .col i.bi-caret-left-fill{
+    left: 0px;
+    bottom: 257px;
+ }
+ #box-3 .col i.bi-caret-right-fill{
+    right: 0px;
+    bottom: 257px;
  }
  #box-3 .slider .slide{
     margin-right: 2%;
@@ -184,7 +176,7 @@ color: #0c4e93;
     font-size: 16px;
     border-color: #757575;
  }
- #box-4>.row>div{
+ #box-4>div.container-fluid>.row>div{
     border-right: 1px solid #75757571;
  }
  #box-4-1 .detail img{
@@ -193,6 +185,6 @@ color: #0c4e93;
     margin: 0px 10px;
     
  }
- #box-4-1>.row{
+ #box-4-1>div{
     border-bottom: 1px solid #75757571;
  }
