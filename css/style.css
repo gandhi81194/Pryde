@@ -39,22 +39,10 @@
     color: #008cd2;
     text-transform: capitalize;
 }
-#banner>div p+.btn::before{
-    content: '';
-    position: absolute;
-    background-color: #111111;
-    height: 5px;
-    width: 00px;
-    /* top: 100%; */
-    transition: 0.5s;
-    bottom: 2%;
-
+#banner .btn:hover{
+    color: white;
+    border: 3px solid black;
 }
-#banner>div p+.btn:hover::before{
-    width: 80%;
-}
-
-
 #banner h3{
    
     font-size: 70px;
@@ -73,7 +61,7 @@
     font-size: 20px;
     color: #0c4e93;
     border-color: #0c4e93;
-    position: relative;
+    /* position: relative; */
 }
 /* box-2 (our services) */
 
@@ -97,14 +85,12 @@
     background-color: white;
     border-color: #0c4e93;
     color: #0c4e93;
-    /* border-bottom: none; */
 }
 #box-2 #box-2-1{
     background-image: url(../images/box-2/bg-1.png);
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 1%;
-    /* width: 100%; */
     padding: 1%;
 }
 #box-2 #box-2-1 img{
@@ -188,3 +174,9 @@ color: #0c4e93;
  #box-4-1>div{
     border-bottom: 1px solid #75757571;
  }
+ @media screen and (max-width:991px) {
+    #box-4>div.container-fluid>.row>div{
+        border-bottom: 1px solid #75757571;
+     }
+    
+}
